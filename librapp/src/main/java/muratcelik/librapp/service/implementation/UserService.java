@@ -44,6 +44,7 @@ public class UserService implements IUserService {
         user.setName(userDetails.getName());
         user.setSurname(userDetails.getSurname());
         user.setEmail(userDetails.getEmail());
+        user.setBook(userDetails.getBook());
         userRepository.save(user);
     }
 
