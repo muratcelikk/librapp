@@ -44,6 +44,7 @@ public class BookService implements IBookService {
         book.setBook_name(bookDetails.getBook_name());
         book.setAuthor_name(bookDetails.getAuthor_name());
         book.setBook_date(bookDetails.getBook_date());
+        book.setUser(bookDetails.getUser());
         bookRepository.save(book);
     }
 
