@@ -1,6 +1,4 @@
 # librapp
-İntelij ide, mysql.
-
-Not: Join işlemleri için mysql yetersiz olabilir. Onun yerine Postgres kullanılabilir. 
+İntellij IDEA, Mysql.
 
 Not: Rest kısmında Query işlemleri konusunda eksik var.
